@@ -1,0 +1,18 @@
+spring:
+  data:
+    mongodb:
+      database: Project2
+      host: localhost
+      port: 27017
+  application:
+    name: currency-application
+  jpa:
+    hibernate:
+      ddl-auto: create
+  redis: 
+    host: 127.0.0.1
+    port: 6379
+    password: 123456
+    time-to-live: 10000
+server:
+  port: 8120
